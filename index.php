@@ -4,8 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <?php require __DIR__ . '/includes/bootstrapcdnlinks.php'; ?>
 </head>
 <body>
+    <?php require __DIR__ . "/includes/navigation.php"; ?>
     <h1>Movie Club</h1>
 <h2>Hello! Welcome to the Movie Club! Sign up <a href="signup.php">here</a>!</h2>
 <a href="Welcome.php?member=false">Vip Area</a>
